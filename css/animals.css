@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+html,
+body {
+  font-family: 'Comic Neue', cursive;
+  min-height: 100%;
+  width: 100%;
+}
+
+#myVideo {
+  position: fixed;
+  left: 0;
+  /* top: -185px; */
+  top: 0px;
+  width: 100%;
+  /* min-height: 100%; */
+  z-index: -1;
+}
+
+header {
+  font-family: 'Rampart One';
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.5); /*  10% opaque green */
+  border-radius: 20px;
+}
+
+nav {
+  background-color: rgb(68, 187, 255);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+}
+
+.nav_el {
+  font-size: 26px;
+  font-weight: 1000;
+  flex-grow: 1;
+  text-align: center;
+  /* padding-left: 20px; */
+}
+
+.nav_el:hover {
+  background-color: rgb(68, 118, 255);
+  border-radius: 20px;
+}
+
+#is_active {
+  color: white;
+  background-color: black;
+}
+
+main {
+  /* visibility: hidden; */
+  max-width: 100%;
+  min-height: 100%;
+  padding: 10px 10px 0px 10px;
+  background: aquamarine;
+}
+
+.list_el {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.collum_im {
+  width: 30%;
+}
+
+.collum_inf {
+  width: 70%;
+  padding-left: 15px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  align-items: center;
+}
+
+.creator {
+  width: auto;
+  margin-right: auto;
+}
+
+.soc_med {
+  width: fit-content;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#footer_text {
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.f_icons {
+  height: 100%;
+  display: flex;
+}
+
+.footer_img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+#facebook_i {
+  background-image: url(/images/icons/facebook_p.png);
+}
+#facebook_i:hover {
+  background-image: url(/images/icons/facebook_a.png);
+}
+
+#instagram_i {
+  background-image: url(/images/icons/instagram_p.png);
+}
+#instagram_i:hover {
+  background-image: url(/images/icons/instagram_a.png);
+}
+
+#twitter_i {
+  background-image: url(/images/icons/twitter_p.png);
+}
+#twitter_i:hover {
+  background-image: url(/images/icons/twitter_a.png);
+}
+
+#youtube_i {
+  background-image: url(/images/icons/youtube_p.png);
+}
+#youtube_i:hover {
+  background-image: url(/images/icons/youtube_a.png);
+}
