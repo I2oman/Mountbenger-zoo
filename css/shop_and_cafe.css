@@ -140,29 +140,29 @@ footer {
 }
 
 #facebook_i {
-  background-image: url(/images/icons/facebook_p.png);
+  background-image: url(../images/icons/facebook_p.png);
 }
 #facebook_i:hover {
-  background-image: url(/images/icons/facebook_a.png);
+  background-image: url(../images/icons/facebook_a.png);
 }
 
 #instagram_i {
-  background-image: url(/images/icons/instagram_p.png);
+  background-image: url(../images/icons/instagram_p.png);
 }
 #instagram_i:hover {
-  background-image: url(/images/icons/instagram_a.png);
+  background-image: url(../images/icons/instagram_a.png);
 }
 
 #twitter_i {
-  background-image: url(/images/icons/twitter_p.png);
+  background-image: url(../images/icons/twitter_p.png);
 }
 #twitter_i:hover {
-  background-image: url(/images/icons/twitter_a.png);
+  background-image: url(../images/icons/twitter_a.png);
 }
 
 #youtube_i {
-  background-image: url(/images/icons/youtube_p.png);
+  background-image: url(../images/icons/youtube_p.png);
 }
 #youtube_i:hover {
-  background-image: url(/images/icons/youtube_a.png);
+  background-image: url(../images/icons/youtube_a.png);
 }
